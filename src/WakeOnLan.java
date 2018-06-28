@@ -10,7 +10,7 @@ public class WakeOnLan {
 		int port = 9; // 端口号
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("目标主机 MAC 地址：");
+		System.out.print("目标主机MAC地址：");
 		String mac = sc.nextLine();
 		sc.close();
 		// 0xFFFFFFFFFFFF + MAC*16
